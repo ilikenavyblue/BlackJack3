@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>BlackJack3</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="script.js">
+	</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+</head>
+<strong id="title" class="stuff">Black Jack</strong><br><br>
+<strong class="stuff"> Aim to get your total card value to 21, but do not exceed. <br><br> Aces are worth 11 or 1, depending on which helps you. <br> The King, Queen, and Jack are worth 10 each. </strong><br><br>
+<hr><br>
+<table class="center">
+	<strong class="blah">DEALER (computer)</strong><br>
+	<tr>
+		<td>
+			<img id="dealer1" src="images/cardbackBlack.png" alt="Description for screen readers" style="width:200px">
+		</td>
+		<td>
+			<img id="dealer2" src="images/cardbackBlack.png" alt="Description for screen readers" style="width:200px">
+		</td>
+		<td>
+			<img id="dealer3" src="images/cardbackBlack.png" alt="Description for screen readers" style="width:200px; display:none">
+		</td>
+		<td>
+			<img id="dealer4" src="images/cardbackBlack.png" alt="Description for screen readers" style="width:200px; display:none">
+		</td>
+		<td>
+			<img id="dealer5" src="images/cardbackBlack.png" alt="Description for screen readers" style="width:200px; display:none">
+		</td>
+	</tr>
+</table><br>
+<label class="total"> Total: <strong id="dealerTotal"></strong></label><br><br>
+<hr><br>
+<table class="center">
+	<strong class="blah">YOU (user)</strong><br>
+	<tr>
+		<td>
+			<img id="user1" src="images/cardbackRed.png" alt="Description for screen readers" style="width:200px">
+		</td>
+		<td>
+			<img id="user2" src="images/cardbackRed.png" alt="Description for screen readers" style="width:200px">
+		</td>
+		<td>
+			<img id="user3" src="images/cardbackRed.png" alt="Description for screen readers" style="width:200px; display:none">
+		</td>
+		<td>
+			<img id="user4" src="images/cardbackRed.png" alt="Description for screen readers" style="width:200px; display:none">
+		</td>
+		<td>
+			<img id="user5" src="images/cardbackRed.png" alt="Description for screen readers" style="width:200px; display:none">
+		</td>
+
+	</tr>
+</table><br>
+<label class="total"> Total: <strong id="userTotal"></strong></label><br><br>
+<hr><br>
+
+
+<strong id="subtitle" class="stuff">MAKE A BET!</strong><br><br>
+
+<label class="stuff">Bet Amount:</label> <input type="number" id="betAmount" min="1"><br><br>
+
+<button id="button" onClick="playGame()" class="stuff">Deal</button>
+<button disabled id="button2" onClick="hit()" class="stuff">Hit</button>
+<button disabled id="button3" onClick="stay()" class="stuff">Stay</button>
+
+<strong id="error" class="stuff"></strong><br><br>
+<hr><br>
+
+
+<i id="gameOver" class="stuff">Calculating your luck...</i>
+<br><br><br>
+
+<strong id="tokensLeft" class="stuff">Tokens Left: </strong><text id="tokens"> 100</text><br><br>
+<hr><br>
+<button id="reset" onClick="resetGame()" class="stuff">Reset</button><br><br>
+
+
+<hr><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+</body>
+
+</html>

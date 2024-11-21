@@ -1,0 +1,116 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #0a8014;
+    text-align: center;
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #title{
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  background-color: #dd484840;
+  text-decoration: underline;
+  }
+  
+  .blah{
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  }
+  
+  .total{
+  color: #ffffff;
+  background-color: #a86f6f40;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  }
+  
+  .stuff{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#ffffff;
+  }
+  
+  #subtitle{
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+  background-color: #851e27;
+  color: #ffffff;
+  }
+  
+  button:enabled{
+  color: #ffffff;  
+  background-color:  #851e27;
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+  border-color: #a5575740; 
+  border-radius: 4px;
+  }
+  
+  button:disabled{
+  color: #ffffff;  
+  background-color:  #2f1e85;
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+  border-color: #a5575740; 
+  border-radius: 4px;
+  }
+  
+  
+  #tokensLeft{
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  
+  }
+  
+  #tokens{
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #cc6f53;
+  text-decoration: underline;
+  }
+  
+  #error{
+  cbackground-olor: #be3b3b;
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  }
+  
+  #reset{
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #a57d5740;
+  border-color: #a55757;
+  border-radius: 4px;
+  }
+  
+  #color{
+  background-color: #f57d7d50
+  }
+  
+  #color2{
+  background-color: #9cabee50
+  }
+  
+  #gameOver{
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  }
+  
+  #betAmount{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: #851e27;
+  color: #ffffff;
+  }
